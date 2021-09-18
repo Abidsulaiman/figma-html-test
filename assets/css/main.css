@@ -1,0 +1,351 @@
+@import url(./fonts.css);
+@import url(./responsive.css);
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: HKGrotesk-Regular;
+  font-size: 15px;
+  line-height: 24px;
+  background: #fff;
+}
+
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.3rem 1rem;
+}
+
+.btn-primary {
+  background: #2783f3;
+}
+
+.btn-outline-primary {
+  border-color: #2783f3;
+  color: #fff;
+  padding: 10px 14px;
+}
+
+.btn-outline-primary:hover {
+  background-color: #2783f3;
+  color: #fff;
+}
+
+.btn-light {
+  color: #2783f3;
+}
+
+.addToCartBtn {
+  background: #00ba74;
+  color: #fff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 72px;
+}
+
+.addToCartBtn:hover {
+  background: #00ba74;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.text-green {
+  color: #00ba74;
+}
+
+header {
+  position: relative;
+  background: url("../images/header-background.svg") center center no-repeat;
+  background-size: cover;
+  min-height: 600px;
+}
+
+.header__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 80vh;
+  padding: 30px 20px;
+}
+
+.header__content h1 {
+  color: #fff;
+  font-size: 28px;
+  line-height: 32px;
+  font-family: HKGrotesk-Bold;
+  letter-spacing: 0.01em;
+}
+
+.header__content .underline {
+  background: #58c19c;
+  width: 24px;
+  height: 4px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.header__content p {
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: HKGrotesk-Light;
+}
+
+.header__content .vector__image {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 344px;
+  height: 393px;
+}
+
+.header__content .headerCta {
+  margin-top: 32px;
+  height: 48px;
+  border-radius: 2px;
+}
+
+header .header__dots {
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+  left: 0;
+}
+
+.product__section {
+  padding: 80px 0;
+}
+
+.product__info .product__title {
+  font-size: 40px;
+  line-height: 53px;
+  font-family: HKGrotesk-Bold;
+}
+
+.product__info .product__description {
+  font-size: 20px;
+  line-height: 30px;
+  color: #4f5659;
+  font-family: HKGrotesk-Light;
+  margin-bottom: 32px;
+}
+
+.product__info .reviews {
+  color: #202324;
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.product__info .reviews .stars {
+  color: #ffd200;
+  margin-right: 4px;
+}
+
+.product__info .colorButton__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.product__info .colors {
+  margin-top: 32px;
+}
+
+.product__info h3 {
+  display: block;
+  color: #939c9f;
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+.product__info .colors label.colorButton {
+  position: relative;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 124px;
+  height: 60px;
+  padding: 8px 14px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  border: 1px solid #d8e0e2;
+  color: #545c5f;
+  font-size: 13px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+  overflow: hidden;
+}
+
+.product__info .colors label.colorButton:hover {
+  border-color: #2783f3;
+}
+
+.product__info .colors .colorButton.limited {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.product__info .colors .colorButton.limited span {
+  text-transform: uppercase;
+  color: #fff;
+  background: #a07edc;
+  font-size: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.product__info .colors .colorButton.newColor {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  border: 2px solid #202324;
+}
+
+.product__info .colors .colorButton.newColor span {
+  text-transform: uppercase;
+  color: #fff;
+  background: #de742d;
+  font-size: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.quantity {
+  margin-top: 32px;
+}
+
+.quantity .quantity__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.quantity .quantity__wrapper .quantityElement {
+  width: 40px;
+  height: 48px;
+  border: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.quantity .quantity__wrapper input.quantityElement:focus {
+  outline: none;
+  background: #fff;
+  color: #34393a;
+  font-size: 16px;
+}
+
+.quantity .quantity__wrapper button.quantityElement {
+  background: #edf1f2;
+  border-radius: 4px;
+  color: #8ca4ab;
+}
+
+.package {
+  margin-top: 32px;
+}
+
+.package .package__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 22px;
+}
+
+.package .package__item .packageButton {
+  width: 20px;
+  height: 20px;
+}
+
+.package .package__item label {
+  color: #202324;
+  font-size: 16px;
+  font-family: HKGrotesk-SemiBold;
+}
+
+.package .package__item label span {
+  color: #00ba74;
+  font-size: 16px;
+  font-family: HKGrotesk-SemiBold;
+}
+
+.package .trevaPayBadge {
+  background: #b1fbe3;
+  font-family: HKGrotesk-BoldItalic;
+  border-radius: 10px;
+  padding: 1px 5px;
+  font-size: 12px;
+}
+
+.informations {
+  margin-top: 32px;
+}
+
+.informations ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.informations ul li {
+  font-size: 16px;
+  margin-bottom: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#lightSlider img {
+  width: 100%;
+}
+/*# sourceMappingURL=main.css.map */
