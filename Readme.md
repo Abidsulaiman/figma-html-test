@@ -13,3 +13,4 @@ A landing page built in bootstrap 5
 1. Bootstrap 5
 2. Bootstrap Icons
 3. Jquery light slider
+4. Sass/scss
