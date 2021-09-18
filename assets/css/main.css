@@ -13,7 +13,9 @@ body {
 }
 
 body {
-  font-family: HKGrotesk-Regular;
+  font-family: HKGrotesk;
+  font-weight: normal;
+  font-style: normal;
   font-size: 15px;
   line-height: 24px;
   background: #fff;
@@ -89,7 +91,7 @@ header {
   color: #fff;
   font-size: 28px;
   line-height: 32px;
-  font-family: HKGrotesk-Bold;
+  font-weight: 700;
   letter-spacing: 0.01em;
 }
 
@@ -105,7 +107,7 @@ header {
   font-size: 18px;
   line-height: 28px;
   color: rgba(255, 255, 255, 0.7);
-  font-family: HKGrotesk-Light;
+  font-weight: 300;
 }
 
 .header__content .vector__image {
@@ -135,14 +137,14 @@ header .header__dots {
 .product__info .product__title {
   font-size: 40px;
   line-height: 53px;
-  font-family: HKGrotesk-Bold;
+  font-weight: 700;
 }
 
 .product__info .product__description {
   font-size: 20px;
   line-height: 30px;
   color: #4f5659;
-  font-family: HKGrotesk-Light;
+  font-weight: 300;
   margin-bottom: 32px;
 }
 
@@ -199,13 +201,14 @@ header .header__dots {
           align-items: center;
   width: 124px;
   height: 60px;
-  padding: 8px 14px;
+  padding: 14px 14px;
   margin-right: 8px;
   margin-bottom: 8px;
   border-radius: 6px;
   border: 1px solid #d8e0e2;
   color: #545c5f;
   font-size: 13px;
+  line-height: 16px;
   text-align: center;
   cursor: pointer;
   -webkit-transition: all ease-in-out 0.3s;
@@ -236,6 +239,7 @@ header .header__dots {
 }
 
 .product__info .colors .colorButton.newColor {
+  padding: 4px 14px;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
@@ -308,18 +312,19 @@ header .header__dots {
 .package .package__item label {
   color: #202324;
   font-size: 16px;
-  font-family: HKGrotesk-SemiBold;
+  font-weight: 600;
 }
 
 .package .package__item label span {
   color: #00ba74;
   font-size: 16px;
-  font-family: HKGrotesk-SemiBold;
+  font-weight: 600;
 }
 
 .package .trevaPayBadge {
   background: #b1fbe3;
-  font-family: HKGrotesk-BoldItalic;
+  font-weight: 800;
+  font-style: italic;
   border-radius: 10px;
   padding: 1px 5px;
   font-size: 12px;

@@ -1,40 +1,48 @@
 @font-face {
-  font-family: HKGrotesk-Light;
+  font-family: HKGrotesk;
   font-weight: 300;
+  font-style: normal;
   src: url(../fonts/hkgrotesk/HKGrotesk-Light.otf);
 }
 @font-face {
-  font-family: HKGrotesk-Regular;
-  font-weight: 400;
+  font-family: HKGrotesk;
+  font-weight: normal;
+  font-style: normal;
   src: url(../fonts/hkgrotesk/HKGrotesk-Regular.otf);
 }
 @font-face {
-  font-family: HKGrotesk-Medium;
+  font-family: HKGrotesk;
   font-weight: 500;
+  font-style: normal;
   src: url(../fonts/hkgrotesk/HKGrotesk-Medium.otf);
 }
 @font-face {
-  font-family: HKGrotesk-SemiBold;
+  font-family: HKGrotesk;
   font-weight: 600;
+  font-style: normal;
   src: url(../fonts/hkgrotesk/HKGrotesk-SemiBold.otf);
 }
 @font-face {
-  font-family: HKGrotesk-Bold;
+  font-family: HKGrotesk;
   font-weight: 700;
+  font-style: normal;
   src: url(../fonts/hkgrotesk/HKGrotesk-Bold.otf);
 }
 @font-face {
-  font-family: HKGrotesk-BoldItalic;
+  font-family: HKGrotesk;
   font-weight: 700;
+  font-style: italic;
   src: url(../fonts/hkgrotesk/HKGrotesk-BoldItalic.otf);
 }
 @font-face {
-  font-family: HKGrotesk-ExtraBold;
+  font-family: HKGrotesk;
   font-weight: 800;
+  font-style: normal;
   src: url(../fonts/hkgrotesk/HKGrotesk-ExtraBold.otf);
 }
 @font-face {
-  font-family: HKGrotesk-Black;
+  font-family: HKGrotesk;
   font-weight: 900;
+  font-style: normal;
   src: url(../fonts/hkgrotesk/HKGrotesk-Black.otf);
 }
